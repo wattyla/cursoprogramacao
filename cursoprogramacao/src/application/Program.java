@@ -62,6 +62,7 @@ public class Program {
 		new SimpleDateFormat("MM/yyyy").format(calendar.getTime()) + ": " + 
 		String.format("%.2f",worker.income(calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH))));
 
+		scan.close();
 	}
 
 }
